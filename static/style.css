@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto to the body */
+    margin: 20px;
+    background-color: #e0f7fa; /* Light Cyan */
+    color: #212121; /* Dark Gray */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto to headings */
+    color: #1976d2; /* Blue (you can adjust this) */
+}
+
+header {
+    background-color: #00bcd4; /* Cyan */
+    color: #fff; /* White */
+    padding: 1em 0; /* Reduced padding (was 1.5em) */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Slightly reduced margin between links (was 20px) */
+}
+
+nav a {
+    color: #fff; /* White */
+    text-decoration: none;
+    font-weight: 700; /* Use the Bold (700) weight of Roboto */
+    font-size: 0.9em;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Yellow accent on hover */
+}
+
+main {
+    padding: 30px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#hero {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #cdd8f1; /* Light Blue */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    color: #1976d2; /* Blue */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    color: #424242; /* Darker Gray */
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#hero a {
+    display: inline-block;
+    background-color: #4caf50; /* Green */
+    color: #fff; /* White */
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#hero a:hover {
+    background-color: #388e3c; /* Darker Green */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px; /* Reduced top margin (was 30px) */
+    padding: 10px 0; /* Reduced padding (was 15px) */
+    background-color: #00bcd4; /* Cyan */
+    color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.8em; /* Slightly smaller font size for footer text */
+}
+
+#about {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    color: #1976d2; /* Blue */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+#about p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+#skills {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    color: #1976d2; /* Blue */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skills ul li {
+    background-color: #e3f2fd; /* Light Blue */
+    color: #1565c0; /* Dark Blue */
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
